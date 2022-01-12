@@ -13,6 +13,10 @@
 		2912E603278D34D600CEA0F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2912E601278D34D600CEA0F8 /* Main.storyboard */; };
 		2912E605278D34D800CEA0F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2912E604278D34D800CEA0F8 /* Assets.xcassets */; };
 		2912E608278D34D800CEA0F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2912E606278D34D800CEA0F8 /* LaunchScreen.storyboard */; };
+		2912E611278D3A7F00CEA0F8 /* SNTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2912E610278D3A7F00CEA0F8 /* SNTabBarController.swift */; };
+		2912E613278D3B5B00CEA0F8 /* SNTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2912E612278D3B5B00CEA0F8 /* SNTabBar.swift */; };
+		2912E615278D3B6C00CEA0F8 /* SNTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2912E614278D3B6C00CEA0F8 /* SNTabBarItem.swift */; };
+		295C1D43278E78D2009EF5A5 /* bg_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 295C1D42278E78D1009EF5A5 /* bg_image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		2912E604278D34D800CEA0F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2912E607278D34D800CEA0F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2912E609278D34D800CEA0F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2912E610278D3A7F00CEA0F8 /* SNTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNTabBarController.swift; sourceTree = "<group>"; };
+		2912E612278D3B5B00CEA0F8 /* SNTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNTabBar.swift; sourceTree = "<group>"; };
+		2912E614278D3B6C00CEA0F8 /* SNTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNTabBarItem.swift; sourceTree = "<group>"; };
+		295C1D42278E78D1009EF5A5 /* bg_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_image.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +67,24 @@
 				2912E5FB278D34D600CEA0F8 /* AppDelegate.swift */,
 				2912E5FD278D34D600CEA0F8 /* SceneDelegate.swift */,
 				2912E5FF278D34D600CEA0F8 /* ViewController.swift */,
+				2912E60F278D3A5700CEA0F8 /* SNTabBarController */,
 				2912E601278D34D600CEA0F8 /* Main.storyboard */,
 				2912E604278D34D800CEA0F8 /* Assets.xcassets */,
 				2912E606278D34D800CEA0F8 /* LaunchScreen.storyboard */,
 				2912E609278D34D800CEA0F8 /* Info.plist */,
 			);
 			path = "SNTabBarDemo-Swift";
+			sourceTree = "<group>";
+		};
+		2912E60F278D3A5700CEA0F8 /* SNTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				295C1D42278E78D1009EF5A5 /* bg_image.png */,
+				2912E610278D3A7F00CEA0F8 /* SNTabBarController.swift */,
+				2912E612278D3B5B00CEA0F8 /* SNTabBar.swift */,
+				2912E614278D3B6C00CEA0F8 /* SNTabBarItem.swift */,
+			);
+			path = SNTabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +147,7 @@
 			files = (
 				2912E608278D34D800CEA0F8 /* LaunchScreen.storyboard in Resources */,
 				2912E605278D34D800CEA0F8 /* Assets.xcassets in Resources */,
+				295C1D43278E78D2009EF5A5 /* bg_image.png in Resources */,
 				2912E603278D34D600CEA0F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2912E613278D3B5B00CEA0F8 /* SNTabBar.swift in Sources */,
+				2912E615278D3B6C00CEA0F8 /* SNTabBarItem.swift in Sources */,
+				2912E611278D3A7F00CEA0F8 /* SNTabBarController.swift in Sources */,
 				2912E600278D34D600CEA0F8 /* ViewController.swift in Sources */,
 				2912E5FC278D34D600CEA0F8 /* AppDelegate.swift in Sources */,
 				2912E5FE278D34D600CEA0F8 /* SceneDelegate.swift in Sources */,
